@@ -9,6 +9,7 @@ header {
 
 .titulares{
     font-size: 24px;
+    width: 100%;
 }
 
 .precios{
@@ -55,7 +56,31 @@ header {
 
 main {
     margin-bottom: 80px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
+.ultima-visita{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  
+}
+.ofertas{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+    
+}
+/* .productos{
+    
+} */
 
 footer {
    padding-left: 25px;
