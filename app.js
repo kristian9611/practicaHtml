@@ -18,3 +18,15 @@ app.get("/404", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
+
+app.get("/login", (req, res) => {
+  res.sendFile(__dirname + "/views/login.html");
+});
+
+app.get("/register", (req, res) => {
+  res.sendFile(__dirname + "/views/register.html");
+});
+
+app.get("/home", (req, res) => {
+  res.sendFile(__dirname + "/views/register.html");
+});
